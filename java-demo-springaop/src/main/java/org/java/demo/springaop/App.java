@@ -1,4 +1,4 @@
-package com.menglong.demo;
+package org.java.demo.springaop;
 
 /**
  * Hello world!

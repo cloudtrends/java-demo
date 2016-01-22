@@ -5,9 +5,13 @@
 	<groupId>com.menglong</groupId>
 	<artifactId>java-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-
+	<packaging>pom</packaging>
 	<name>java-demo</name>
+	<modules>
+		<module>java-demo-springaop</module>
+		<module>java-demo-aspectjaop</module>
+	</modules>
+
 	<url>http://maven.apache.org</url>
 
 	<properties>

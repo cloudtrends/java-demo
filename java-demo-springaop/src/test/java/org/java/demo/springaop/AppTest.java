@@ -1,4 +1,4 @@
-package com.menglong.demo;
+package org.java.demo.springaop;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
