@@ -1,0 +1,16 @@
+<!DOCTYPE aspectj PUBLIC
+        "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+
+<aspectj>
+<!-- <weaver options="-showWeaveInfo -Xreweavable -Xset:weaveJavaxPackages=true -Xset:weaveJavaPackages=true"> -->
+	<weaver options="-showWeaveInfo">
+		<!-- ①指定需要进行织入操作的目标类范围 -->
+		<include within="org.java.demo.aspectjaop.aspect.TestAspect" />
+		<include within="*..*" />
+	</weaver>
+
+	<aspects>
+		<!-- ②切面类 -->
+		<aspect name="org.java.demo.aspectjaop.aspect.TestAspect" />
+	</aspects>
+</aspectj>
